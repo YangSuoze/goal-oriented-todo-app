@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>目标驱动型待办记录（Goal-Oriented Todo App）</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="app__loading">
+        <h1>目标驱动型待办记录</h1>
+        <p>正在加载…</p>
+        <noscript>需要启用 JavaScript 才能运行本应用。</noscript>
+      </div>
+    </div>
+
+    <script defer src="src/utils/date.js"></script>
+    <script defer src="src/utils/storage.js"></script>
+    <script defer src="src/utils/dom.js"></script>
+    <script defer src="src/store/goalStore.js"></script>
+    <script defer src="src/components/ProgressBar.js"></script>
+    <script defer src="src/components/YearGoalCard.js"></script>
+    <script defer src="src/components/MonthGoalCard.js"></script>
+    <script defer src="src/components/TodoItem.js"></script>
+    <script defer src="src/components/HeaderBar.js"></script>
+    <script defer src="src/components/SidebarNav.js"></script>
+    <script defer src="src/components/AppShell.js"></script>
+    <script defer src="src/components/Modal.js"></script>
+    <script defer src="src/components/CreateModal.js"></script>
+    <script defer src="src/components/SettingsModal.js"></script>
+    <script defer src="src/components/DayValueModal.js"></script>
+    <script defer src="src/components/EditYearGoalModal.js"></script>
+    <script defer src="src/components/EditMonthGoalModal.js"></script>
+    <script defer src="src/components/ModalRoot.js"></script>
+    <script defer src="src/views/DashboardView.js"></script>
+    <script defer src="src/views/YearGoalsView.js"></script>
+    <script defer src="src/views/MonthGoalsView.js"></script>
+    <script defer src="src/views/TodayView.js"></script>
+    <script defer src="src/views/MonthFocusView.js"></script>
+    <script defer src="src/views/ViewRouter.js"></script>
+    <script defer src="src/main.js"></script>
+  </body>
+</html>
